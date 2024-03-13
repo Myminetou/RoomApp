@@ -9,7 +9,7 @@ import Section5 from "../components/Section5";
 export default function Fisrtpage() {
     return (
         <ScrollView>
-            <View style={{ flex: 1 , backgroundColor : 'white', padding : 10 }}>
+            <View style={{ flex: 1 , backgroundColor : 'lightyellow', padding : 10 }}>
                 <Section1 />
                 <Section2 />
                 <Section3 />

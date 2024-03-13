@@ -4,12 +4,13 @@ import { MaterialIcons, Ionicons, FontAwesome5, MaterialCommunityIcons, Feather}
 
 export default function Section5() {
     return (
-        <View style={{marginTop: 20, borderTopWidth:1, justifyContent:"space-between", flexDirection:"row"}}>
-            <View style = {{flexDirection:"column", marginLeft:8}}>
-                <View>
-                    <MaterialIcons style={{marginTop: 10,marginLeft:15}} name="notifications" size={30} color="black" />
-                </View>
-                <Text>Notifications</Text>
+        <View style={{ padding:10}}>
+            <View style={{marginTop: 20, borderTopWidth:1, justifyContent:"space-between", flexDirection:"row"}}>
+                <View style = {{flexDirection:"column", marginLeft:8}}>
+                    <View>
+                        <MaterialIcons style={{marginTop: 10,marginLeft:15}} name="notifications" size={30} color="black" />
+                    </View>
+                    <Text>Notifications</Text>
             </View>
 
             <View style = {{flexDirection:"column"}}>
@@ -39,6 +40,7 @@ export default function Section5() {
                 </View>
                 <Text>Chat</Text>
             </View>
+        </View>
         </View>
         );
     }
