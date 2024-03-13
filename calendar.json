@@ -1,7 +1,7 @@
 [
-{ "id": "1", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/running1.jpg" , "month" : "MAR", "date" : "14", "datetime" : "Thu, MAR 14, 09.00 am" , "place" : "Thammasat University" },
-{ "id": "2", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Cooking1.jpg" , "month" : "MAR", "date" : "20", "datetime" : "Wed, MAR 20, 08.30 am", "place" : "Thammasat University"},
-{ "id": "3", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Reading1.jpg" , "month" : "MAR", "date" : "30", "datetime" : "Sat, MAR 30, 10.00 am", "place" : "Thammasat University"},
-{ "id": "4", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Gaming1.jpg" , "month" : "APR", "date" : "10", "datetime" : "Web, APR 10, 13.00 am", "place" : "Thammasat University"},
-{ "id": "5", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/coding1.jpg" , "month" : "APR", "date" : "20", "datetime" : "Sat, APR 20, 14.00 am", "place" : "Thammasat University"}
+  { "id": "1", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/running1.jpg" , "month" : "MAR", "date" : "14", "datetime" : "Thu, MAR 14, 09.00 am" , "place" : "Thammasat University" },
+  { "id": "2", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Cooking1.jpg" , "month" : "MAR", "date" : "20", "datetime" : "Wed, MAR 20, 08.30 am", "place" : "Thammasat University"},
+  { "id": "3", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Reading1.jpg" , "month" : "MAR", "date" : "30", "datetime" : "Sat, MAR 30, 10.00 am", "place" : "Thammasat University"},
+  { "id": "4", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/Gaming1.jpg" , "month" : "APR", "date" : "10", "datetime" : "Web, APR 10, 13.00 am", "place" : "Thammasat University"},
+  { "id": "5", "title": "SC3 Building", "uri": "https://raw.githubusercontent.com/arc6828/myreactnative/main/assets/coding1.jpg" , "month" : "APR", "date" : "20", "datetime" : "Sat, APR 20, 14.00 am", "place" : "Thammasat University"}
 ]
