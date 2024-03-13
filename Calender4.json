@@ -1,7 +1,7 @@
 [
-  { "id": "1", "group" : "Travel To Phuket", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec1.jpg" , "member" : "member 30"},
-  { "id": "2", "group" : "Friendship", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec2.jpg" , "member" : "member 50"},
-  { "id": "3", "group" : "Food Fighter", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec3.jpg" , "member" : "member 100"},
-  { "id": "4", "group" : "Find Roommate", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec4.jpg" , "member" : "member 1000"},
-  { "id": "5", "group" : "Love Penguin", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec5.jpg" , "member" : "member 500"}
+  { "id": "1", "group" : "Travel To Phuket", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec1.jpg" , "member" : "member = 30"},
+  { "id": "2", "group" : "Friendship", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec2.jpg" , "member" : "member = 50"},
+  { "id": "3", "group" : "Food Fighter", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec3.jpg" , "member" : "member = 100"},
+  { "id": "4", "group" : "Find Roommate", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec4.jpg" , "member" : "member = 1000"},
+  { "id": "5", "group" : "Love Penguin", "uri": "https://raw.githubusercontent.com/Myminetou/RoomApp/main/assets/Sec5.jpg" , "member" : "member  = 500"}
 ]
