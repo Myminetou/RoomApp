@@ -9,12 +9,11 @@ import Section5 from "../components/Section5";
 export default function Secondpage() {
     return (
         <ScrollView>
-            <View style={{ flex: 1 , backgroundColor : 'lightyellow'}}>
+            <View style={{backgroundColor : 'lightyellow'}}>
                 <Second1 />
                 <Second2 />
                 <Second3 />
                 <Second4 />
-                <Section5 />
             </View>
         </ScrollView>
     );
