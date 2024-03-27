@@ -21,7 +21,7 @@ export default function Second2(props) {
     }, []);    
     return (
         <View style={props.style}>
-            <Text style={{ fontSize : 15, color:"grey", margin:30, marginTop:50}}>Activities กิจกรรมที่กำลังจะเกิดขึ้น</Text>
+            <Text style={{ fontSize : 15, color:"black", margin:30, marginTop:50}}>Activities กิจกรรมที่กำลังจะเกิดขึ้น</Text>
             <FlatList
                 horizontal={true}
                 // data={tours}

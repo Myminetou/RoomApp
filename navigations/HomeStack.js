@@ -2,6 +2,9 @@ import React from 'react';
 import { createStackNavigator } from '@react-navigation/stack';
 import Secondpage from '../screens/Secondpage';
 import Fisrtpage from '../screens/Firstpage';
+import Fivepage from '../screens/Fivepage';
+import TodoList from '../screens/TodoList';
+import Profile from '../screens/Profile';
 
 const Stack = createStackNavigator();
 
@@ -16,8 +19,23 @@ export default function HomeStack() {
           <Stack.Screen
             name="Firstpage"
             component={Fisrtpage}
-            options={{ title: "Chat", headerShown : false }}
+            options={{ title: "Chat"}}
           />      
+          <Stack.Screen
+            name="Fivepage"
+            component={Fivepage}
+            options={{ title: "More"}}
+          />      
+          <Stack.Screen
+            name="TodoList"
+            component={TodoList}
+            options={{ title: "TodoList"}}
+          />      
+          <Stack.Screen
+            name="Profile"
+            component={Profile}
+            options={{ title: "Profile"}}
+          />  
         </Stack.Navigator>
     );    
 }

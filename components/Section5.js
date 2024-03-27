@@ -49,9 +49,9 @@ export default function Second4() {
                 <View style = {{flexDirection:"column"}}>
                     <TouchableOpacity>
                     <View>
-                    <MaterialCommunityIcons style={{marginTop: 10}} name="dots-horizontal" size={30} color="black" onPress={()=>{ navigation.navigate("Other"); }} />
+                    <MaterialCommunityIcons style={{marginTop: 10}} name="dots-horizontal" size={30} color="black" onPress={()=>{ navigation.navigate("Fivepage"); }} />
                     </View>
-                    <Text>Other</Text>
+                    <Text>More</Text>
                     </TouchableOpacity>
                 </View>
         </View>
