@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Text, TouchableOpacity, View } from "react-native";
-import { MaterialCommunityIcons, AntDesign, Entypo, Fontisto, FontAwesome, FontAwesome6,Ionicons } from "@expo/vector-icons";
+import { AntDesign, Entypo, Fontisto, FontAwesome, FontAwesome6 } from "@expo/vector-icons";
 import { useNavigation } from "@react-navigation/native";
 
 export default function Other() {
@@ -30,8 +30,8 @@ export default function Other() {
                         <Text style={{flexDirection:"column", marginTop: 10, marginLeft:60}}>File</Text>
                     </TouchableOpacity>
                     <TouchableOpacity>
-                        <Ionicons style={{marginTop: 10, marginLeft:50}} name="scan" size={40} color="black" />
-                        <Text style={{flexDirection:"column", marginTop: 10, marginLeft:55}}>Scan</Text>
+                        <AntDesign style={{marginTop: 10, marginLeft:65}} name="book" size={40} color="black" onPress={ ()=>{ navigation.navigate("Book")}} />
+                        <Text style={{flexDirection:"column", marginTop: 10, marginLeft:55}}>Book store</Text>
                     </TouchableOpacity>
                     <TouchableOpacity>
                         <AntDesign style={{marginTop: 10, marginLeft:50}} name="google" size={40} color="black" />

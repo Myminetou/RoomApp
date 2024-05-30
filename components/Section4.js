@@ -43,6 +43,13 @@ export default function Section4() {
                         <Text style={{ fontSize:15}}>Member 3 people</Text>
                     </View>
             </View>
+            <View style={{flexDirection:"row", marginTop: 10, marginHorizontal: 10, padding: 20, borderRadius: 20, borderWidth : 1, backgroundColor : 'white',borderColor: 'gray', shadowColor:"#black", elevation:10}}>
+            <Image style={{ width: 80, height: 80, borderRadius: 10}} source={require("../assets/cat6.jpg")} />
+                    <View style={{justifyContent:"column", padding:15}}>
+                        <Text style={{ fontSize:20}}>TU100</Text>
+                        <Text style={{ fontSize:15}}>Member 50 people</Text>
+                    </View>
+            </View>
     </View>
         );
     }

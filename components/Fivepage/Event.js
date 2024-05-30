@@ -35,6 +35,7 @@ export default function Event(props) {
                                 <View style={{ flexDirection:'column', marginTop: -30, paddingHorizontal:10, width:300, height :80, backgroundColor:"lightyellow", borderBottomLeftRadius: 10, borderBottomRightRadius:10, padding:20}}>
                                     <Text>Homework</Text>
                                     <Text>Homework</Text>
+                                    <Text>Activities</Text>
                                 </View>
                             </View>
                             // <TourItem item={item} index={index} />

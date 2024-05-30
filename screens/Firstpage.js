@@ -14,7 +14,6 @@ export default function Fisrtpage() {
                 <Section2 />
                 <Section3 />
                 <Section4 />
-                <Section5 />
             </View>
         </ScrollView>
     );

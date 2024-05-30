@@ -5,6 +5,8 @@ import Fisrtpage from '../screens/Firstpage';
 import Fivepage from '../screens/Fivepage';
 import TodoList from '../screens/TodoList';
 import Profile from '../screens/Profile';
+import Fourpage from '../screens/Fourpage';
+import Thirdpage from '../screens/Thirdpage';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +22,16 @@ export default function HomeStack() {
             name="Firstpage"
             component={Fisrtpage}
             options={{ title: "Chat"}}
+          />      
+          <Stack.Screen
+            name="Thirdpage"
+            component={Thirdpage}
+            options={{ title: "Friend"}}
+          />      
+          <Stack.Screen
+            name="Fourpage"
+            component={Fourpage}
+            options={{ title: "Notification"}}
           />      
           <Stack.Screen
             name="Fivepage"

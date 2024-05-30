@@ -26,59 +26,61 @@ export default function User() {
   };
 
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>Your Profile</Text>
-      <View style={{ flexDirection: "row"}}>
-          <Image style={{ width: 50, height: 50, borderRadius: 50 / 2 }} source={require("../../assets/firstpage.jpg")} />
+    <View style ={{padding:10, marginTop:20}}>
+      <View style={styles.container}>
+        <Text style={styles.title}>Your Profile</Text>
+        <View style={{ flexDirection: "row"}}>
+            <Image style={{ width: 100, height: 100, borderRadius: 50 / 2, marginLeft:150, margin:30}} source={require("../../assets/firstpage.jpg")} />
+        </View>
+        <View style = {{marginLeft:40, marginRight:40}}>
+          <View style={styles.inputContainer}>
+            <Text style={styles.label}>Name:</Text>
+            <TextInput
+              style={styles.input}
+              keyboardType="numeric"
+              onChangeText={(text) => setUser(parseInt(text))}
+              value={user.toString()}
+            />
+          </View>
+          <View style={styles.inputContainer}>
+            <Text style={styles.label}>ID:</Text>
+            <TextInput
+              style={styles.input}
+              keyboardType="numeric"
+              onChangeText={(text) => setAge(parseInt(text))}
+              value={age.toString()}
+            />
+          </View>
+          <View style={styles.inputContainer}>
+            <Text style={styles.label}>Quote:</Text>
+            <TextInput
+              style={styles.input}
+              keyboardType="numeric"
+              onChangeText={(text) => setAge(parseInt(text))}
+              value={age.toString()}
+            />
+          </View>
+          <View style={styles.inputContainer}>
+            <Text style={styles.label}>Phone:</Text>
+            <TextInput
+              style={styles.input}
+              keyboardType="numeric"
+              onChangeText={(text) => setAge(parseInt(text))}
+              value={age.toString()}
+            />
+          </View>
+          <View style={styles.inputContainer}>
+            <Text style={styles.label}>Birthday:</Text>
+            <TextInput
+              style={styles.input}
+              keyboardType="numeric"
+              onChangeText={(text) => setAge(parseInt(text))}
+              value={age.toString()}
+            />
+          </View>
+          <Button title="Save" onPress={ save } style={styles.button} />
+          </View>
       </View>
-      <View style={styles.inputContainer}>
-        <Text style={styles.label}>Name:</Text>
-        <TextInput
-          style={styles.input}
-          keyboardType="numeric"
-          onChangeText={(text) => setUser(parseInt(text))}
-          value={user.toString()}
-        />
-      </View>
-      <View style={styles.inputContainer}>
-        <Text style={styles.label}>ID:</Text>
-        <TextInput
-          style={styles.input}
-          keyboardType="numeric"
-          onChangeText={(text) => setAge(parseInt(text))}
-          value={age.toString()}
-        />
-      </View>
-      <View style={styles.inputContainer}>
-        <Text style={styles.label}>Quote:</Text>
-        <TextInput
-          style={styles.input}
-          keyboardType="numeric"
-          onChangeText={(text) => setAge(parseInt(text))}
-          value={age.toString()}
-        />
-      </View>
-      <View style={styles.inputContainer}>
-        <Text style={styles.label}>Phone:</Text>
-        <TextInput
-          style={styles.input}
-          keyboardType="numeric"
-          onChangeText={(text) => setAge(parseInt(text))}
-          value={age.toString()}
-        />
-      </View>
-      <View style={styles.inputContainer}>
-        <Text style={styles.label}>Birthday:</Text>
-        <TextInput
-          style={styles.input}
-          keyboardType="numeric"
-          onChangeText={(text) => setAge(parseInt(text))}
-          value={age.toString()}
-        />
-      </View>
-
-        <Button title="Save" onPress={ save } style={styles.button} />
-      
     </View>
   );
 }

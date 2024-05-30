@@ -31,7 +31,7 @@ export default function Second4() {
                 <View style = {{flexDirection:"column"}}>
                     <TouchableOpacity>
                     <View>
-                    <Ionicons style={{marginTop: 10}} name="people-sharp" size={30} color="black" onPress={()=>{ navigation.navigate("Friend"); }}/>
+                    <Ionicons style={{marginTop: 10}} name="people-sharp" size={30} color="black" onPress={()=>{ navigation.navigate("Thirdpage"); }}/>
                     </View>
                     <Text>Friend</Text>
                     </TouchableOpacity>
@@ -40,7 +40,7 @@ export default function Second4() {
                 <View style = {{flexDirection:"column"}}>
                     <TouchableOpacity>
                     <View>
-                    <Ionicons style={{marginTop: 10, marginLeft:27}} name="notifications" size={30} color="black" onPress={()=>{ navigation.navigate("Notifications"); }}/>
+                    <Ionicons style={{marginTop: 10, marginLeft:27}} name="notifications" size={30} color="black" onPress={()=>{ navigation.navigate("Fourpage"); }}/>
                     </View>
                     <Text>Notifications</Text>
                     </TouchableOpacity>
